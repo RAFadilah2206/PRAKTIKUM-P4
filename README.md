@@ -1,22 +1,26 @@
 
 # PHP Framework
 # Mengaktfikan Ekstensi PHP
-Berikut beberapa ekstensi yang perlu diaktifkan:
-• php-json ekstension untuk bekerja dengan JSON;
-• php-mysqlnd native driver untuk MySQL;
-• php-xml ekstension untuk bekerja dengan XML;
-• php-intl ekstensi untuk membuat aplikasi multibahasa;
-• libcurl (opsional), jika ingin pakai Curl.
+Sebelum menggunakan framework PHP seperti CodeIgniter atau Laravel, pastikan beberapa ekstensi berikut telah diaktifkan pada konfigurasi PHP Anda. Ekstensi ini diperlukan agar aplikasi dapat berjalan dengan baik:
+php-json, Digunakan untuk menangani data dalam format JSON.
+php-mysqlnd, Native driver untuk koneksi MySQL, digunakan oleh banyak framework PHP untuk akses database.
+php-xml, Diperlukan untuk bekerja dengan data XML, seperti saat menggunakan fitur parsing atau pemrosesan dokumen XML.
+php-intl, Berguna untuk membuat aplikasi dengan dukungan multibahasa dan pengaturan lokal (locale-based formatting).
+libcurl (opsional), Digunakan jika aplikasi membutuhkan akses ke URL eksternal menggunakan Curl (misalnya untuk API request).
 Aktifkan ekstensi dengan membuka XAMPP Control Panel. Klik Config pada Apache, lalu pilih PHP.ini, dan cari serta hapus tanda ; di depan baris ekstensi yang dibutuhkan.
 
 ![Screenshot 2025-06-10 182110](https://github.com/user-attachments/assets/dac4c523-9016-4e8d-92de-7125e0921a98)
 
 
 # Instalasi Codeigniter 4
-• Unduh Codeigniter dari website https://codeigniter.com/download
-• Extrak file zip Codeigniter ke direktori htdocs/lab11_ci.
-• Ubah nama direktory framework-4.x.xx menjadi ci4.
-• Buka browser dengan alamat http://localhost/lab11_ci/ci4/public/
+Unduh CodeIgniter dari:
+https://codeigniter.com/download
+Ekstrak file ZIP ke:
+htdocs/lab11_ci
+Ubah nama folder hasil ekstrak menjadi:
+ci4
+Akses di browser melalui:
+http://localhost/lab11_ci/ci4/public/
 
 ![Screenshot 2025-04-21 213850](https://github.com/user-attachments/assets/a4027cce-de68-432d-85d9-a04697ff6b13)
 
