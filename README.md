@@ -1,4 +1,4 @@
-
+=======================================================================================================================================================================================
 # PHP Framework
 # Mengaktfikan Ekstensi PHP
 Sebelum menggunakan framework PHP seperti CodeIgniter atau Laravel, pastikan beberapa ekstensi berikut telah diaktifkan pada konfigurasi PHP Anda. Ekstensi ini diperlukan agar aplikasi dapat berjalan dengan baik:
